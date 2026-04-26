@@ -10,7 +10,7 @@ import { AnimatedHeading } from "@/components/ui/AnimatedHeading";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Eight practice areas — custom development, cloud, AI, mobile, eCommerce, testing, data analytics, and support — delivered through our POD model.",
+    "Eight practice areas covering custom development, cloud, AI, mobile, eCommerce, testing, data analytics, and support, all delivered through our POD model.",
 };
 
 export default function ServicesPage() {
@@ -44,7 +44,7 @@ export default function ServicesPage() {
             className="text-lg max-w-2xl leading-relaxed"
             style={{ color: "var(--color-text-muted)" }}
           >
-            Every engagement draws from the same disciplined delivery model —
+            Every engagement draws from the same disciplined delivery model:
             dedicated PODs with specialists matched to your specific requirements.
           </p>
         </div>
@@ -108,9 +108,10 @@ export default function ServicesPage() {
             className="text-base leading-relaxed mb-8"
             style={{ color: "var(--color-text-muted)" }}
           >
-            Whether you need a single practice or a multi-discipline POD, the delivery
-            model is the same — dedicated resources, quarterly planning, full knowledge
-            transition support, and client-specific security standards.
+            Whether you need one practice area or a full multi-discipline POD,
+            the model is consistent: dedicated resources, quarterly planning,
+            full knowledge transition coverage, and security standards built to
+            your spec.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button as="link" href="/contact" variant="primary" size="md" icon={ArrowRight}>

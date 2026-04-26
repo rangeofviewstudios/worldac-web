@@ -52,7 +52,7 @@ export function ServicesGrid() {
           />
           <p className="text-base lg:text-lg" style={{ color: "var(--color-text-muted)" }}>
             Our POD model combines specialists from across disciplines into
-            dedicated teams — so every engagement has exactly the depth it needs.
+            dedicated teams, so every engagement has exactly the depth it needs.
           </p>
         </div>
 

@@ -42,20 +42,19 @@ export function PodModel() {
               className="font-display font-bold tracking-tight mb-5"
               style={{ fontSize: "clamp(1.875rem, 3vw, 2.5rem)", color: "var(--color-text)" }}
             >
-              The POD Model —
+              The POD Model:
               <br />
               cross-functional by design.
             </h2>
             <p className="text-base leading-relaxed mb-5" style={{ color: "var(--color-text-muted)" }}>
-              We set up cross-functional teams plugged into an innovation stream fed
-              by guilds and communities of talent. Our distributed agile model
-              centers on POD maturity — dedicated teams combining specialists from
-              across guilds.
+              We build dedicated teams by drawing specialists from guilds across
+              every discipline. Each POD is assembled to match your engagement,
+              not filled from whoever happens to be available.
             </p>
             <p className="text-base leading-relaxed mb-8" style={{ color: "var(--color-text-muted)" }}>
-              The core DNA of every POD intersects digital expertise with intimate
-              knowledge of your specific business — resulting in teams that get
-              smarter the longer they work with you.
+              The longer a POD works in your environment, the more valuable they
+              become. We structure our model specifically to keep them on your
+              account.
             </p>
 
             {/* Key attributes */}

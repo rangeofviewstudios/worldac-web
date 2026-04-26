@@ -10,9 +10,9 @@ export const SERVICES = [
     id: "custom-development",
     title: "Custom Development",
     description:
-      "We specialize in delivering tailored software solutions that align seamlessly with your business objectives.",
+      "Software built for your exact workflows, not adapted from someone else's template.",
     longDescription:
-      "From greenfield builds to legacy modernization, we architect and deliver custom software that fits your workflows precisely — not the other way around. Our cross-functional PODs combine product thinking with deep engineering expertise across web, API, and systems layers.",
+      "From greenfield builds to legacy modernization, we architect and deliver custom software that fits your workflows precisely, not the other way around. Our cross-functional PODs combine product thinking with deep engineering across web, API, and systems layers.",
     icon: "Code2",
     tags: ["Full-Stack", "API Design", "Architecture"],
     process: [
@@ -32,7 +32,7 @@ export const SERVICES = [
     id: "support-maintenance",
     title: "Support and Maintenance",
     description:
-      "Ensure the longevity and optimal performance of your applications with our comprehensive support and maintenance services.",
+      "Structured support that keeps your systems healthy so your team can focus on building, not firefighting.",
     longDescription:
       "We provide structured SLA-backed support tiers — from incident response and bug fixes to proactive performance monitoring and dependency management. Your systems stay healthy so your teams can focus forward.",
     icon: "Wrench",
@@ -54,7 +54,7 @@ export const SERVICES = [
     id: "ecommerce",
     title: "eCommerce",
     description:
-      "Transform your online business with our end-to-end eCommerce solutions designed to enhance user experience and drive sales.",
+      "Commerce experiences built to convert, on platforms that fit your scale.",
     longDescription:
       "We design and build commerce experiences that convert — from headless storefronts and custom checkout flows to ERP integrations and inventory automation. Built on the platforms that fit your scale, extended where they don't.",
     icon: "ShoppingCart",
@@ -76,7 +76,7 @@ export const SERVICES = [
     id: "cloud-services",
     title: "Cloud Services (AWS)",
     description:
-      "Leverage the power of the cloud to enhance agility, scalability, and cost-efficiency in your operations.",
+      "Cloud architecture that scales with demand and keeps your infrastructure costs predictable.",
     longDescription:
       "Our AWS-certified engineers design cloud architectures that scale with demand and stay cost-efficient. We handle migrations, infrastructure-as-code, CI/CD pipelines, and ongoing cloud operations — from startups to enterprise workloads.",
     icon: "Cloud",
@@ -98,7 +98,7 @@ export const SERVICES = [
     id: "testing-services",
     title: "Testing Services",
     description:
-      "Ensure the reliability and quality of your software through our comprehensive testing services.",
+      "QA built into the delivery cycle, not bolted on at the end.",
     longDescription:
       "Quality assurance built into the delivery cycle, not bolted on at the end. We provide unit, integration, E2E, performance, and security testing — with automation-first strategies that catch regressions before they reach production.",
     icon: "CheckCircle",
@@ -120,9 +120,9 @@ export const SERVICES = [
     id: "mobile-development",
     title: "Mobile Development",
     description:
-      "Expand your reach with our mobile development services, creating engaging and high-performance mobile applications.",
+      "Native and cross-platform apps built for performance, from first design through App Store launch.",
     longDescription:
-      "Native and cross-platform mobile applications built for performance and retention. We cover iOS, Android, and React Native — from product design through App Store deployment — with ongoing iteration built into our engagement model.",
+      "Native and cross-platform mobile applications built for performance and retention. We cover iOS, Android, and React Native, from product design through App Store deployment, with ongoing iteration built into our engagement model.",
     icon: "Smartphone",
     tags: ["iOS", "Android", "React Native"],
     process: [
@@ -142,7 +142,7 @@ export const SERVICES = [
     id: "data-analytics",
     title: "Data and Analytics",
     description:
-      "Unlock actionable insights and drive informed decision-making with our data and analytics services.",
+      "Turn raw operational data into clear business intelligence you can actually act on.",
     longDescription:
       "We build data platforms that transform raw operational data into clear business intelligence — data pipelines, warehousing, dashboards, and predictive models. From early-stage analytics infrastructure to enterprise data strategy.",
     icon: "BarChart3",
@@ -164,7 +164,7 @@ export const SERVICES = [
     id: "ai-generative-ai",
     title: "AI and Generative AI",
     description:
-      "Innovate and automate with our AI and Generative AI services, transforming your business processes and customer experiences.",
+      "AI capabilities matched to your specific problem, not the nearest hype cycle.",
     longDescription:
       "We integrate AI capabilities that deliver measurable outcomes — LLM-powered workflows, intelligent document processing, RAG systems, and custom model fine-tuning. We match the tool to the problem, not the hype cycle.",
     icon: "Sparkles",
@@ -191,9 +191,9 @@ export const CASE_STUDIES = [
     tag: "Case Study",
     title: "Digital Transformation for a Luxury Hotel Portfolio",
     summary:
-      "A portfolio of luxury and business hotels across India faced critical challenges in digital engagement and operational efficiency — fragmented booking systems, inconsistent guest experiences across properties, and limited operational visibility.",
+      "A portfolio of luxury hotels across India needed to fix three things: fragmented booking systems, inconsistent guest experiences across properties, and no real-time operational visibility.",
     outcome:
-      "We delivered a unified digital platform integrating PMS connectivity, a headless booking engine, and a real-time operations dashboard — reducing booking abandonment by 40% and cutting front-desk processing time significantly across properties.",
+      "We built a unified digital platform with PMS connectivity, a headless booking engine, and a real-time operations dashboard. Booking abandonment dropped 40% across properties.",
     services: ["Custom Development", "Cloud Services", "Data and Analytics"],
     metric: "40% reduction in booking abandonment",
   },
@@ -203,9 +203,9 @@ export const CASE_STUDIES = [
     tag: "Case Study",
     title: "Full-Stack Modernization for a Life Sciences Group",
     summary:
-      "A life sciences and healthcare group was operating on outdated digital infrastructure — siloed data systems, manual compliance workflows, and legacy clinical applications that could not scale with the organization's growth.",
+      "A life sciences group was stuck on outdated infrastructure: siloed data systems, manual compliance workflows, and clinical applications that couldn't keep up with the organization's growth.",
     outcome:
-      "We executed a phased full-stack modernization: re-platforming core clinical systems to cloud-native architecture, implementing automated compliance reporting pipelines, and delivering a unified data layer that connected previously isolated departments.",
+      "We ran a phased modernization, moving core clinical systems to cloud-native architecture, automating compliance reporting, and building a unified data layer that finally connected the organization's siloed departments.",
     services: ["Custom Development", "Cloud Services", "Testing Services", "Data and Analytics"],
     metric: "Compliance reporting time reduced by 65%",
   },
@@ -216,19 +216,19 @@ export const HOW_WE_WORK_STEPS = [
     step: "01",
     title: "Get in touch",
     description:
-      "Tell us about your project, team gaps, or operational challenges. We'll schedule a focused discovery call — no boilerplate decks, just a direct conversation.",
+      "Tell us what you're working on. We'll set up a focused call with no decks and no sales process. Just a direct conversation about where you need help.",
   },
   {
     step: "02",
     title: "Agree on scope and timeline",
     description:
-      "We define exactly what we're supporting, the engagement model, and the start date. Quarterly demand planning ensures resources are aligned to your roadmap.",
+      "We define the scope, the model, and the start date. Quarterly planning means we're never scrambling to staff your next phase.",
   },
   {
     step: "03",
     title: "Get set up fast",
     description:
-      "Standard stack onboarding within 1 week. Niche skills within 2–3 weeks. Urgent requests accommodated. We absorb all knowledge transition costs on our end.",
+      "Standard stacks in under a week. Niche skills in two to three weeks. We cover every knowledge transition cost on our end.",
   },
 ];
 
@@ -236,25 +236,25 @@ export const DIFFERENTIATORS = [
   {
     title: "Resource Stickiness",
     description:
-      "We assign client-specific resources and develop talent centered on your line of business. When we backfill any role, we pick up the full cost of knowledge transition.",
+      "We assign resources specifically to your account and build their expertise around your business. When we backfill any role, we cover every transition cost.",
     icon: "Users",
   },
   {
     title: "Data Security",
     description:
-      "Background-checked associates, mandatory training cycles, access controls, encryption, and network monitoring. We implement your specific security standards — not just defaults.",
+      "Background-checked associates, mandatory training, access controls, encryption, and network monitoring. Your specific security requirements layer on top, not the other way around.",
     icon: "Shield",
   },
   {
     title: "Demand Planning",
     description:
-      "Quarterly planning cycles to fulfill contingent resourcing needs. Resources onboarded typically within 5–10 business days of your request.",
+      "We plan quarterly so resources are ready before you need them. Standard onboarding runs 5 to 10 business days from the day you ask.",
     icon: "Calendar",
   },
   {
-    title: "EST–PST Coverage",
+    title: "EST to PST Coverage",
     description:
-      "Nearshore delivery hubs in Guadalajara and Monterrey — the Silicon Valley of Mexico — means full US business hours coverage without the offshore latency.",
+      "Our Guadalajara and Monterrey hubs (Mexico's Silicon Valley) cover the full span of US business hours, without the communication overhead of traditional offshore.",
     icon: "Clock",
   },
 ];

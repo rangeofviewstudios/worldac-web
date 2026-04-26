@@ -20,7 +20,7 @@ const articles = [
     category: "Strategy",
     title: "Why Nearshore Is Winning the IT Delivery Debate",
     excerpt:
-      "Offshore models offered cost savings at the expense of coordination overhead. Nearshore changes the equation — same timezone, same business culture, closer talent.",
+      "Offshore models offered cost savings at the expense of coordination overhead. Nearshore changes the equation: same timezone, same business culture, closer talent.",
     readTime: "5 min read",
     date: "February 2025",
   },
@@ -29,7 +29,7 @@ const articles = [
     category: "Cloud",
     title: "Five AWS Cost Patterns That Kill Cloud ROI",
     excerpt:
-      "Most cloud overspend isn't from bad architecture decisions — it's from five operational patterns that accumulate silently. Here's what to audit first.",
+      "Most cloud overspend isn't from bad architecture decisions. It's from five operational patterns that accumulate silently. Here's what to audit first.",
     readTime: "7 min read",
     date: "January 2025",
   },

@@ -21,17 +21,17 @@ const values = [
   {
     title: "Aligned incentives",
     description:
-      "We absorb knowledge transition costs when we backfill a role. Our success is directly tied to how well your team performs — not to headcount.",
+      "We absorb knowledge transition costs when we backfill a role. Our success is tied to your team's performance, not to how many seats we fill.",
   },
   {
     title: "Depth over breadth",
     description:
-      "We build client-specific talent pools. The longer a resource works in your environment, the more valuable they become — and we structure our model to keep them.",
+      "We build talent around your business specifically. The longer someone works in your environment, the more valuable they become, and we structure everything to keep them there.",
   },
   {
     title: "Security by default",
     description:
-      "Background checks, mandatory training, access controls, and encrypted data handling are baselines — not add-ons. We then layer your specific security requirements on top.",
+      "Background checks, mandatory training, access controls, and encrypted data handling are baselines, not add-ons. Your specific security requirements go on top.",
   },
 ];
 
@@ -87,21 +87,20 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-base leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
                 <p>
-                  At Worldac Consulting, we specialize in delivering bespoke IT solutions
-                  that align with your business objectives. From custom application
-                  development to comprehensive cloud services, our team is dedicated to
-                  driving your digital success.
+                  We're a nearshore IT firm headquartered in Atlanta, with engineering
+                  teams in Guadalajara and Monterrey. Our work spans custom software,
+                  cloud infrastructure, mobile, AI, data, and everything between those
+                  disciplines.
                 </p>
                 <p>
-                  Headquartered in Johns Creek, Atlanta, GA, we operate nearshore delivery
-                  hubs in Guadalajara and Monterrey — Mexico's Silicon Valley — giving us
-                  access to deep engineering talent while maintaining full US business
-                  hours coverage from EST to PST.
+                  Our delivery hubs sit in Guadalajara and Monterrey (Mexico's Silicon
+                  Valley), giving us access to deep engineering talent while keeping full
+                  US business hours coverage from EST to PST.
                 </p>
                 <p>
-                  We serve US and UK businesses that need reliable, high-quality IT
-                  delivery without the communication friction of traditional offshore
-                  models. Same timezone. Same business culture. Better outcomes.
+                  We work with US and UK businesses that need reliable IT delivery without
+                  the communication friction of traditional offshore models. Same timezone.
+                  Same business culture. Better outcomes.
                 </p>
               </div>
             </div>
@@ -109,15 +108,13 @@ export default function AboutPage() {
             <div className="space-y-5">
               <SectionLabel className="mb-5">Our Model</SectionLabel>
               <p className="text-base leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-                Our core delivery mechanism is the POD model — cross-functional teams
-                assembled from guilds of specialized talent and dedicated to a specific
-                client engagement.
+                Our core delivery model is the POD: cross-functional teams assembled
+                from specialist guilds and dedicated to a single client engagement.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-                We engage in quarterly demand planning to anticipate resource needs, and
-                we onboard resources typically within 5–10 business days of a request.
-                When we need to backfill any role, we take on the full knowledge transition
-                cost — because continuity is our responsibility, not yours.
+                We plan quarterly to stay ahead of your resource needs, and we onboard
+                within 5 to 10 business days. When we backfill any role, we cover every
+                transition cost. Continuity is our responsibility, not yours.
               </p>
 
               {/* Key figures */}

@@ -46,10 +46,10 @@ export function CTABanner() {
             className="text-xs font-mono tracking-[0.15em] uppercase mb-5"
             style={{ color: "#0ea5e9" }}
           >
-            Ready to get started?
+            Let's work together
           </p>
           <SplitText
-            text="Let's build something that actually moves the needle."
+            text="Let's build something worth shipping."
             tag="h2"
             className="font-display font-bold tracking-tight mb-5"
             style={{
@@ -71,8 +71,8 @@ export function CTABanner() {
             className="text-base lg:text-lg leading-relaxed max-w-xl mx-auto mb-10"
             style={{ color: "var(--color-text-muted)" }}
           >
-            Tell us about your project. We'll come back with a direct conversation —
-            no boilerplate decks, no unnecessary process.
+            Tell us about your project. We'll get back to you within a business
+            day, with a direct conversation and no sales decks.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button as="link" href="/contact" size="lg" variant="primary" icon={ArrowRight}>

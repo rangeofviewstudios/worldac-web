@@ -40,7 +40,7 @@ export default function ResourcesPage() {
             className="text-lg max-w-lg leading-relaxed"
             style={{ color: "var(--color-text-muted)" }}
           >
-            Practical perspectives from the Worldac team — no vendor content, no
+            Practical perspectives from the Worldac team. No vendor content, no
             thought leadership filler.
           </p>
         </div>

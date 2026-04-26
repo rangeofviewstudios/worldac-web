@@ -110,7 +110,7 @@ export function Hero() {
             className="font-display font-bold leading-[1.05] tracking-[-0.04em] mb-6"
             style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)", color: "#f0f6ff" }}
           >
-            Empowering Businesses
+            IT delivery built
             <br />
             <span
               style={{
@@ -120,10 +120,10 @@ export function Hero() {
                 backgroundClip: "text",
               }}
             >
-              Through Tailored
+              for the way
             </span>
             <br />
-            IT Solutions.
+            you actually work.
           </motion.h1>
 
           {/* Subtext */}
@@ -135,9 +135,8 @@ export function Hero() {
             className="text-lg lg:text-xl leading-relaxed max-w-2xl mb-10"
             style={{ color: "var(--color-slate-400)" }}
           >
-            From custom application development to comprehensive cloud services,
-            our cross-functional PODs deliver with US business hours coverage —
-            EST to PST.
+            Specialist teams assembled around your exact requirements, working
+            your hours. No offshore overhead, no generic staffing.
           </motion.p>
 
           {/* CTAs */}

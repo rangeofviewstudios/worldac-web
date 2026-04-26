@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Mail, MapPin, Clock } from "lucide-react";
 import { Logo } from "@/components/ui/Logo";
+import { HubClock } from "@/components/ui/HubClocks";
 import { NAV_LINKS, SERVICES } from "@/lib/constants";
 
 export function Footer() {
@@ -15,8 +16,8 @@ export function Footer() {
           <div className="lg:col-span-1 space-y-5">
             <Logo variant="light" size="md" />
             <p className="text-sm leading-relaxed text-[var(--color-slate-400)] max-w-xs">
-              Bespoke IT solutions that align with your business objectives.
-              Nearshore delivery, US business hours.
+              Custom IT delivery, nearshore proximity. Your hours, your
+              standards, your team.
             </p>
             <div className="space-y-2.5 text-xs">
               <div className="flex items-start gap-2.5">
@@ -83,11 +84,13 @@ export function Footer() {
               Delivery Hubs
             </h3>
             <div className="space-y-4">
-              {[
-                { city: "Johns Creek", region: "Atlanta, GA", role: "HQ" },
-                { city: "Guadalajara", region: "Jalisco, Mexico", role: "Delivery" },
-                { city: "Monterrey", region: "Nuevo León, Mexico", role: "Delivery" },
-              ].map((hub) => (
+              {(
+                [
+                  { city: "Johns Creek", region: "Atlanta, GA", role: "HQ" },
+                  { city: "Guadalajara", region: "Jalisco, Mexico", role: "Delivery" },
+                  { city: "Monterrey", region: "Nuevo León, Mexico", role: "Delivery" },
+                ] as const
+              ).map((hub, i) => (
                 <div key={hub.city} className="space-y-0.5">
                   <div className="flex items-center gap-2">
                     <span className="text-sm text-white font-medium">{hub.city}</span>
@@ -95,7 +98,10 @@ export function Footer() {
                       {hub.role}
                     </span>
                   </div>
-                  <p className="text-xs">{hub.region}</p>
+                  <div className="flex items-center gap-2">
+                    <p className="text-xs">{hub.region}</p>
+                    <HubClock index={i} />
+                  </div>
                 </div>
               ))}
             </div>
